@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: #eee;
+}
+/* //////////////////////Header////////////////////////////////// */
+header{
+    background-color: rgb(45, 67, 97);
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    width: auto;
+    /* margin-bottom: 10em; */
+}
+header img{
+    border-radius: 0%;
+    height: 10vh;
+}
+header, ul{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    margin-left: .5rem;
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+#nomblogo{
+    margin-left: .8em;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    margin: 10em;
+}
+
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(204, 202, 202);
+    font-size: 2.5rem;
+    transition: 1s;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+li a:hover{
+    color: white;
+    background-color: black;
+
+}
+/* //////////////////////////////////////////////////////////////// */
+/* ////////////////////////////MAIN/////////////////////////////////// */
+.centrado{
+    margin: 0 auto;
+       
+    width: 90%;
+}
+
+h2{
+    font-size: 4rem;
+    margin-top: 4rem;
+
+}
+.part1{
+    width: 50%;
+}
+.part2{
+    width: 40%
+}
+.contenedor{
+    display: flex; 
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+h3{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: .1em;
+}
+.part1 p, address{
+    font-size: 2rem;
+    margin-bottom: .4em;
+}
+
+label,
+input,
+select,
+textarea {
+    display: block;
+    margin-top: 10px;
+   
+}
+
+fieldset{
+    width: 25vw;
+    font-size: 7rem;
+}
+
+
+
+.botones{
+    display: flex;
+
+}
+
+.formulario{
+    margin-left: 1em;
+}
+
+.botones input{
+    padding: .5em;
+    margin: 1em;
+}
+
+/* /////////////////FOOTER////////////////////////////// */
+footer{
+    margin-top:  10em;
+
+    background-color: rgb(45, 67, 97);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer address{
+    color: white;
+    font-size: 7em;
+}
+
+.copyright{
+    color: white;
+    font-size: 9em;
+}
+.links a{
+    margin-left: 5em;
+}
+.links i{
+    color: white;
+}
+
+.links i{
+    font-size: 30em;
+}

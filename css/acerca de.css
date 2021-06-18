@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: #eee;
+}
+
+/* /////////////////////////HEader////////////////////////////////////// */
+header{
+    background-color: rgb(45, 67, 97);
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    width: auto;
+    /* margin-bottom: 10em; */
+}
+header img{
+    border-radius: 0%;
+    height: 10vh;
+}
+header, ul{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    margin-left: .5rem;
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+#nomblogo{
+    margin-left: .8em;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    margin: 10em;
+}
+
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(204, 202, 202);
+    font-size: 2.5rem;
+    transition: 1s;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+li a:hover{
+    color: white;
+    background-color: black;
+
+}
+/* //////////////////////////////////////////////////////////////////// */
+/* ///////////////////MAIN/////////////////////////////////////// */
+.centrado{
+    margin: 0 auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    width: 60%;
+}
+.centrado p{
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main h1{
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+/* ////////////////////////////////////////////////////////// */ 
+
+/* ///////////////////FOOTER/////////////////////////////////////// */
+footer{
+    margin-top:  10em;
+
+    background-color: rgb(45, 67, 97);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer address{
+    color: white;
+    font-size: 7em;
+}
+
+.copyright{
+    color: white;
+    font-size: 9em;
+}
+.links a{
+    margin-left: 5em;
+}
+.links i{
+    color: white;
+}
+
+.links i{
+    font-size: 30em;
+}
